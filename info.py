@@ -24,7 +24,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsNwuTVPjFwvY3O2ji3SByto0q1gBLcAuYh26IVhPsTz-7osRBJ20OCkhmlIB66Cp0EW4sKbkb8cTZq-kAQiSPWvKZe4T379lXXAS7YUPXxR1deaABlct6PCRwy-5xGzhfO6Uoen_n3WvxtBVklnToC9EAartLs04Ti2MoZ_wKSGjGRi52Btw5XSBR1d5j/s500/photo_2024-09-28_20-26-10.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/9133dc596eabc73750774.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1579154183 6857565336 6950726141').split()]
@@ -64,7 +64,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'DM - @SahilJangraDm To Get Direct Movie Vide
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002175721220'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
