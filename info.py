@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28023575'))
-API_HASH = environ.get('API_HASH', 'dedc36b693321633028848ba66aefa58')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6711647754:AAEX-aKD8EJujiWixgZbeXAJdchDhMYMqLg")
+API_ID = int(environ.get('API_ID', '21808158'))
+API_HASH = environ.get('API_HASH', 'fcfb27ddbdb238a0a180826059ab6cd2')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7619116820:AAFjhYLNkeZcUOHwnVTcxIpN81ZSXCajxjM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://zoyabot:zoyapassword@cluster0.8hylmtw.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://LMBot:LMBOT@SAHIL@cluster0.kxnvn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -61,7 +61,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/LonelyMoviesBackup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/LM_How_To_Watch_Movie')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'DM - @SahilJangraDm To Get Direct Movie Video')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002119845734'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002175721220'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
